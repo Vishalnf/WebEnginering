@@ -1,0 +1,74 @@
+body{
+	background-image:url("bg3.jpg");
+	color:white;
+}
+h1.h_1{
+	font-family:Showcard Gothic;
+	font-size:55px;
+	background-color:red;
+	border:25px solid black;
+	padding:30px;
+	margin:20px;
+	margin-top:60px;
+	color:white;
+}
+h1.c span{
+	background-color:black;
+    margin:40px;
+	margin-top:5px;
+	padding:5px;
+	font-size:20px;
+}
+h4.no span{
+	background-color:red;
+    margin:40px;
+	margin-top:5px;
+	padding:5px;
+	font-size:40px;
+	color:yellow;
+	border:5px double yellow;
+}
+h2.e span{
+	background-color:green;
+    margin:40px;
+	margin-top:100px;
+	padding:5px;
+	font-size:40px;
+	color:white;
+	border:5px double blue;
+	text-shadow:2px 2px 5px black;
+}
+h2.pr span{
+	
+    margin:40px;
+	margin-top:5px;
+	padding:5px;
+	font-size:40px;
+	color:white;
+	font-family:Broadway;
+	background-color:deeppink;
+	text-shadow:2px 2px 5px black;
+	border:5px double blue;	
+}
+table.T{
+	font-size:20px;
+	text-align:center;
+}
+form.F{
+	font-size:20px;
+	background-color:black;
+	font-family:Algerian;
+	margin:150px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+h1.back a{
+	text-decoration:none;
+	color:white;
+	font-family:Verdana;
+	font-size:30px;
+	background-color:#ff0066;
+    margin:20px;
+	border:5px solid black;
+	padding:5px;
+}

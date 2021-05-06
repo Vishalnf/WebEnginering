@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title> Registration Form </title>
+<style>
+body{
+background-color: darkgray;
+}
+form {
+     background-color:gray;
+     margin:150px;
+     margin-top:10px;
+     margin-bottom:5px;
+     padding:10px
+     }
+</style>
+</head>
+<body>
+<br><br>
+<center>Registration Form</center>
+<br>
+<br>
+<br>
+<br>
+<form>
+<fieldset>
+<center>Username:
+<input type="text" id="username" name="fname" autofocus><br><br>
+Password:
+<input type="text" id="password1"><br><br>
+Re-enter Password:
+<input type="text" id="password2"><br><br>
+Phone:
+<input type="text" id="phone" ><br><br>
+<input type="button" value="Submit" onclick="Validation()">
+
+</center>
+</fieldset>
+</form>
+<script>
+function Validation()
+ {
+  
+  if(document.getElementById("username").value == '')
+  {
+	alert("Enter your Username \n No value is given");
+  }
+  
+  var p1 = document.getElementById("password1").value;
+  var p2 = document.getElementById("password2").value;
+  
+  if(p1 != p2)
+  {
+  alert("Password is mismatched");
+  }
+  
+  var num = document.getElementById("phone").value;
+  var len= num.toString().length
+  if((len<10)||(len>10))
+  {
+   alert("Phone number is Invalid \n It must be 10 digits ");
+  }
+}
+</script>
+</body>
+</html>
